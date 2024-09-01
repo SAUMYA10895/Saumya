@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="icon" href="logo-icon.png">
+</head>
+<body>
+    <header>
+        <h1>Form</h1>
+    </header>
+    <fieldset>
+    <form action="/submit" method="post">
+        <div class="line">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name">
+        </div>
+        <div class="line">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+        </div>
+        <div class="line">
+        <label for="age">Age:</label>
+        <select name="age" id="age">
+            <option value="Kids">5-11</option>
+            <option value="Teenagers">12-18</option>
+            <option value="Adults">Above</option>
+        </select>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+    </fieldset>
+</body>
+</html>

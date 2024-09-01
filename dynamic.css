@@ -1,0 +1,173 @@
+    /* Reset styles */
+    body, html ,img{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: Arial, sans-serif;
+        overflow-x:hidden ;
+      }
+    #video {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -2;
+        filter: blur(5px); /* Blurs the background video */
+    }
+
+
+    /* Blackout effect */
+    #blackout {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6); /* Adds a semi-transparent overlay */
+        z-index: -1;
+    }
+
+    /* Intro container */
+    .intro-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100svh;
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+    }
+
+    /* Typing effect */
+    .intro-text {
+        display: inline-block;
+        white-space: nowrap;
+        border-right: 3px solid white; /* Cursor effect */
+        overflow: hidden;
+        background: rgba(255, 255, 255, 0.05);
+        animation: typing 2.5s steps(30, end) forwards, blink-caret 0.75s step-end infinite 4s; /* Blinking starts after typing */
+
+    }
+
+.intro-text span#animate{
+    padding: 0;
+    margin-right: -14px;
+}
+    @keyframes typing {
+        from { width: 0; }
+        to { width: 30%; }
+    }
+
+    @keyframes blink-caret {
+        50% { border-color: transparent; }
+        80% { border-color: white; }
+    }
+    /* Fade-out animation */
+    .intro-container.fade-out {
+        animation: fadeOut 2.5s ease forwards;
+        animation-delay: 3s;
+    }
+
+    @keyframes fadeOut {
+        0% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+            visibility: hidden;
+        }
+    }
+
+
+    @keyframes mainContentAnim {
+        0% {
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        }
+    /* Main content */
+    .header {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        z-index: 2;
+        justify-content:right;
+        align-items: center;
+        gap: 18px;
+        padding-top: 9px;
+        display: none;
+    }
+    #guest{
+        border-radius: 50%;
+        width: 45px;
+    }
+
+    #home{
+        width: 55px;
+        padding-right:10px ;
+    }
+    footer {
+        width: 100%;
+        background-color: teal;
+        padding: 2%;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center; 
+    }
+    
+    footer a {
+        color: black;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+    
+    footer a:hover {
+        text-decoration: underline; 
+    }
+    .image-container {
+        position: relative;
+        width: 100%;
+    }
+    
+    .image-container img {
+        width: 100%;
+        vertical-align: bottom;
+    }
+    
+    .text-overlay {
+        position: absolute;
+        top: 50%; /* Center vertically */
+        left: 50%; /* Center horizontally */
+        transform: translate(-50%, -50%); /* Adjusts the centering */
+        color: white; /* Text color */
+        font-size: 2rem; /* Adjust as needed */
+        font-weight: bold; /* Make text bold */
+        text-align: center; /* Center text */
+        background-color: rgba(0, 0, 0, 0.5); /* Optional: Semi-transparent background */
+        padding: 10px 20px; /* Optional: Add padding */
+        border-radius: 5px; /* Optional: Rounded corners */
+    }
+    #signup {
+        white-space: nowrap;
+        color: black;
+        text-decoration: none;
+        background: #3498db;
+        margin: 9px;
+        padding: 10px 20px;
+        border-radius: 5px;      
+    }
+    #signup:hover,#signup:focus {
+        background-color: #0056b3; 
+    }
+    
+
+    

@@ -1,0 +1,44 @@
+html{
+    display:block;
+    height:100%;
+}
+body{
+    background-image:url("grass.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size:3rem;
+    text-align: center;
+    text-decoration: 2px underline black;
+}
+fieldset{
+    background-color:rgba(218, 165, 32, 0.23);
+    border:0;
+    outline:rgba(107, 82, 19, 0.23) solid 3px;
+    outline-offset:3px;
+    border-radius:20px;
+    padding: 3%;
+    margin-inline: 15%;
+}
+.line{
+    margin-bottom:3%;
+}
+label{
+    font-size:1.3rem;
+    color:white;
+}
+input[type="submit"]{
+    background-color:forestgreen;
+    border:0.2px solid greenyellow;
+    border-radius:50%;
+    color:white;
+    font-size: 1.3rem;
+    font-family:Arial, Helvetica, sans-serif;
+    float:right;
+    padding:2%;
+}
