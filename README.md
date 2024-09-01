@@ -1,10 +1,10 @@
-AI (ARTIFICIAL INTELLIGENCE) AND ML(MACHINE LEARNING) TO HELP PEOPLE WITH AUTISM
+## AI (ARTIFICIAL INTELLIGENCE) AND ML(MACHINE LEARNING) TO HELP PEOPLE WITH AUTISM
 
-Introduction
+## Introduction
 
 The Algorithm Alliance has developed Theauxism.com, an online platform dedicated to supporting individuals with autism, their families, caregivers, and educators. Our mission is to provide comprehensive resources, educational content, and foster a supportive community to empower those affected by autism. The website features a wide range of offerings, including informative articles, forums, online courses, and tools designed for tracking developmental progress.
 
-Mission Statement
+## Mission Statement
 
 To provide support, resources, and community for individuals with autism and their families.
 To help with the menstrual cycle and mental health.
@@ -16,7 +16,7 @@ We support to help people dealing with bullying, child abuse, Harassment and und
 
 
 
-Website Features 
+## Website Features 
 
 DARK MODE in setting.
 Resource Library: Articles, research papers, and guides on autism.
@@ -25,7 +25,7 @@ Support Services: Information on local and online support groups, therapy option
 
 
 
-Target Audience
+## Target Audience
 
 Individuals with autism
 Parents and families of individuals with autism
@@ -35,11 +35,11 @@ Autism advocacy groups
 General public interested in learning about autism
 
 
-Educational Resources
+## Educational Resources
 Overview of the articles, videos, and tools available on the site.
 Explain how the content is tailored to different age groups and needs.
 
-Compliance and Legal
+# Compliance and Legal
 Privacy Policy
 Detailed policy outlining how user data is collected, stored, and used.
 Compliance with GDPR and other international data protection laws.
